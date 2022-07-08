@@ -1,0 +1,36 @@
+.nav-left{
+-fx-background-color : #437FC7;
+}
+.item-left{
+-fx-background-color : "transparent";
+}
+.item-left:hover{
+-fx-background-color : #3f72b1;
+}
+.btn {
+-fx-background-color : "transparent";
+}
+.cell-header{
+-fx-background-color : #6DAFFE;
+}
+.btn-primary{
+-fx-background-color : #6DAFFE;
+}
+.btn-primary:pressed{
+    -fx-background-color : #3f72b1;
+}
+.btn-primary1{
+    -fx-background-color : #3f72b1;
+}
+.btn-primary1:pressed{
+    -fx-background-color : #6DAFFE;
+}
+.table-view .column-header,.table-view .column-header-background .filler{
+    -fx-background-color :  #437FC7;
+}
+.table-view .column-header .label{
+    -fx-padding : 15px;
+    -fx-text-fill : white;
+    -fx-font-wight : bold;
+    -fx-alignment : CENTER_LEFT;
+}

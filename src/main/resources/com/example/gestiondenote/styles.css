@@ -1,0 +1,52 @@
+.nav-left {
+  -fx-background-color: #437fc7;
+}
+.item-left {
+  -fx-background-color: "transparent";
+}
+.item-left:hover {
+  -fx-background-color: #3f72b1;
+}
+.btn {
+  -fx-background-color: "transparent";
+}
+.cell-header {
+  -fx-background-color: #6daffe;
+}
+.btn-primary {
+  -fx-background-color: #6daffe;
+}
+.btn-primary:pressed {
+  -fx-background-color: #3f72b1;
+}
+.btn-primary1 {
+  -fx-background-color: #3f72b1;
+}
+.btn-primary1:pressed {
+  -fx-background-color: #6daffe;
+}
+.table-view .column-header,
+.table-view .column-header-background .filler {
+  -fx-background-color: #437fc7;
+}
+.table-view .column-header .label {
+  -fx-padding: 15px;
+  -fx-text-fill: white;
+  -fx-font-wight: bold;
+  -fx-alignment: CENTER_LEFT;
+}
+.card-1 {
+  -fx-background-color: #437fc7;
+}
+.card-2 {
+  -fx-background-color: #6daffe;
+}
+.card-3 {
+  -fx-background-color: #edf6ff;
+}
+.card-4 {
+  -fx-background-color: #2e3047;
+}
+.card-5 {
+  -fx-background-color: #3bba9c;
+}

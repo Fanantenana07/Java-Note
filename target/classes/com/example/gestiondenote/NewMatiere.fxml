@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="pane" minHeight="-Infinity" minWidth="-Infinity" prefHeight="426.0" prefWidth="481.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.gestiondenote.NewMatiereController">
+   <children>
+      <HBox alignment="CENTER" fillHeight="false" maxWidth="700.0" prefHeight="426.0" prefWidth="481.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <VBox maxWidth="500.0" prefHeight="383.0" prefWidth="455.0" spacing="20.0">
+               <children>
+                  <Pane prefHeight="62.0" prefWidth="353.0" VBox.vgrow="NEVER">
+                     <children>
+                        <Label layoutX="176.0" layoutY="10.0" text="Matiere" textFill="#3f72b1">
+                           <font>
+                              <Font size="29.0" />
+                           </font>
+                        </Label>
+                        <FontAwesomeIconView fill="#3f72b1" glyphName="PENCIL" layoutX="140.0" layoutY="42.0" size="30" />
+                     </children>
+                  </Pane>
+                  <VBox prefHeight="40.0" prefWidth="353.0" VBox.vgrow="NEVER">
+                     <children>
+                        <HBox alignment="CENTER" maxHeight="1.7976931348623157E308" prefHeight="42.0" prefWidth="353.0" VBox.vgrow="NEVER">
+                           <children>
+                              <Label alignment="CENTER_RIGHT" minWidth="130.0" text="Code Matiere :" textAlignment="RIGHT">
+                                 <HBox.margin>
+                                    <Insets right="8.0" />
+                                 </HBox.margin>
+                              </Label>
+                              <TextField fx:id="codeMat" alignment="TOP_LEFT" HBox.hgrow="ALWAYS" />
+                           </children>
+                           <VBox.margin>
+                              <Insets />
+                           </VBox.margin>
+                        </HBox>
+                     </children>
+                     <cursor>
+                        <Cursor fx:constant="DEFAULT" />
+                     </cursor>
+                  </VBox>
+                  <VBox prefHeight="40.0" prefWidth="353.0" VBox.vgrow="NEVER">
+                     <children>
+                        <HBox alignment="CENTER" prefHeight="40.0" prefWidth="353.0" VBox.vgrow="NEVER">
+                           <children>
+                              <Label alignment="CENTER_RIGHT" minWidth="130.0" text="Libelle :" textAlignment="RIGHT">
+                                 <HBox.margin>
+                                    <Insets right="8.0" />
+                                 </HBox.margin>
+                              </Label>
+                              <TextField fx:id="libelle" alignment="TOP_LEFT" HBox.hgrow="ALWAYS" />
+                           </children>
+                           <VBox.margin>
+                              <Insets />
+                           </VBox.margin>
+                        </HBox>
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="35.0" prefWidth="353.0" VBox.vgrow="NEVER">
+                     <children>
+                        <HBox alignment="CENTER" minWidth="118.0" prefHeight="33.0" prefWidth="353.0" VBox.vgrow="NEVER">
+                           <children>
+                              <Label alignment="BOTTOM_RIGHT" minWidth="130.0" text="Coefficient :" textAlignment="CENTER">
+                                 <HBox.margin>
+                                    <Insets right="8.0" />
+                                 </HBox.margin>
+                              </Label>
+                              <Spinner fx:id="coef" prefHeight="25.0" prefWidth="294.0" />
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+                  <HBox alignment="CENTER_RIGHT" minHeight="44.0" prefHeight="44.0" prefWidth="353.0">
+                     <children>
+                        <Button fx:id="addBtn" alignment="CENTER" contentDisplay="CENTER" minHeight="30.0" minWidth="100.0" mnemonicParsing="false" onAction="#addMatiere" prefHeight="30.0" prefWidth="152.0" styleClass="btn-primary1" stylesheets="@style.css" text="Ajouter" textFill="WHITE">
+                           <HBox.margin>
+                              <Insets right="10.0" />
+                           </HBox.margin>
+                        </Button>
+                        <Button fx:id="cancelBtn" alignment="CENTER" contentDisplay="CENTER" minHeight="30.0" minWidth="94.0" mnemonicParsing="false" onAction="#close" prefHeight="30.0" prefWidth="133.0" styleClass="btn-primary1" stylesheets="@style.css" text="Annuler" textAlignment="CENTER" textFill="WHITE" />
+                     </children>
+                  </HBox>
+               </children>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="35.0" />
+               </padding>
+            </VBox>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

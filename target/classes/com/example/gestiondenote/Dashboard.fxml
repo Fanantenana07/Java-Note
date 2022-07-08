@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox layoutX="87.0" layoutY="14.0" prefHeight="200.0" prefWidth="100.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <HBox maxHeight="50.0" prefHeight="100.0" prefWidth="200.0" spacing="10.0" VBox.vgrow="ALWAYS">
+               <children>
+                  <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" styleClass="card-1" stylesheets="@styles.css" HBox.hgrow="ALWAYS">
+                     <children>
+                        <Label alignment="TOP_LEFT" prefHeight="68.0" prefWidth="228.0" text="L1" textFill="WHITE">
+                           <font>
+                              <Font name="Segoe UI Bold Italic" size="36.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER_RIGHT" contentDisplay="CENTER" prefHeight="84.0" prefWidth="267.0" styleClass="filler" text="30" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="37.0" />
+                           </font>
+                           <padding>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </padding>
+                           <stylesheets>
+                              <URL value="@style.css" />
+                              <URL value="@styles.css" />
+                           </stylesheets>
+                        </Label>
+                     </children>
+                  </VBox>
+                  <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" styleClass="card-4" stylesheets="@style.css" HBox.hgrow="ALWAYS">
+                     <children>
+                        <Label alignment="TOP_LEFT" contentDisplay="CENTER" prefHeight="68.0" prefWidth="228.0" text="L2" textFill="WHITE" VBox.vgrow="ALWAYS">
+                           <font>
+                              <Font name="Segoe UI Semibold Italic" size="30.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER_RIGHT" prefHeight="84.0" prefWidth="267.0" stylesheets="@style.css" text="30" textFill="WHITE" VBox.vgrow="ALWAYS">
+                           <font>
+                              <Font name="System Bold" size="37.0" />
+                           </font>
+                           <padding>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </padding>
+                        </Label>
+                     </children>
+                  </VBox>
+                  <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" styleClass="card-2" stylesheets="@style.css" HBox.hgrow="ALWAYS">
+                     <children>
+                        <Label alignment="TOP_LEFT" contentDisplay="CENTER" prefHeight="68.0" prefWidth="228.0" text="L3" textFill="WHITE">
+                           <font>
+                              <Font name="Segoe UI Semibold Italic" size="30.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER_RIGHT" contentDisplay="CENTER" prefHeight="84.0" prefWidth="267.0" text="30" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="37.0" />
+                           </font>
+                           <padding>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </padding>
+                        </Label>
+                     </children>
+                  </VBox>
+                  <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" styleClass="card-4" stylesheets="@style.css" HBox.hgrow="ALWAYS">
+                     <children>
+                        <Label alignment="TOP_LEFT" contentDisplay="CENTER" prefHeight="68.0" prefWidth="228.0" text="M1" textFill="WHITE">
+                           <font>
+                              <Font name="Segoe UI Semibold Italic" size="30.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER_RIGHT" contentDisplay="CENTER" prefHeight="84.0" prefWidth="267.0" text="30" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="37.0" />
+                           </font>
+                           <padding>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </padding>
+                        </Label>
+                     </children>
+                  </VBox>
+                  <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" styleClass="card-5" stylesheets="@style.css" HBox.hgrow="ALWAYS">
+                     <children>
+                        <Label alignment="TOP_LEFT" contentDisplay="CENTER" prefHeight="68.0" prefWidth="228.0" text="M2" textFill="WHITE" VBox.vgrow="ALWAYS">
+                           <font>
+                              <Font name="Segoe UI Semibold Italic" size="30.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER_RIGHT" contentDisplay="CENTER" prefHeight="84.0" prefWidth="267.0" text="30" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="37.0" />
+                           </font>
+                           <padding>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </padding>
+                        </Label>
+                     </children>
+                  </VBox>
+               </children>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
+               <children>
+                  <BarChart HBox.hgrow="ALWAYS">
+                    <xAxis>
+                      <CategoryAxis side="BOTTOM" />
+                    </xAxis>
+                    <yAxis>
+                      <NumberAxis side="LEFT" />
+                    </yAxis>
+                  </BarChart>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
